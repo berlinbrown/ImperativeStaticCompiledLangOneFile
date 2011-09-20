@@ -1,0 +1,93 @@
+Compiled from "MainX.java"
+public class MainX extends java.lang.Object
+  SourceFile: "MainX.java"
+  minor version: 0
+  major version: 50
+  Constant pool:
+const #1 = Method	#10.#20;	//  java/lang/Object."<init>":()V
+const #2 = Field	#21.#22;	//  java/lang/System.out:Ljava/io/PrintStream;
+const #3 = Method	#23.#24;	//  java/io/PrintStream.println:(I)V
+const #4 = String	#25;	//  Running
+const #5 = Method	#23.#26;	//  java/io/PrintStream.println:(Ljava/lang/String;)V
+const #6 = class	#27;	//  MainX
+const #7 = Method	#6.#20;	//  MainX."<init>":()V
+const #8 = Method	#6.#28;	//  MainX.execute:()V
+const #9 = String	#29;	//  Done
+const #10 = class	#30;	//  java/lang/Object
+const #11 = Asciz	<init>;
+const #12 = Asciz	()V;
+const #13 = Asciz	Code;
+const #14 = Asciz	LineNumberTable;
+const #15 = Asciz	execute;
+const #16 = Asciz	main;
+const #17 = Asciz	([Ljava/lang/String;)V;
+const #18 = Asciz	SourceFile;
+const #19 = Asciz	MainX.java;
+const #20 = NameAndType	#11:#12;//  "<init>":()V
+const #21 = class	#31;	//  java/lang/System
+const #22 = NameAndType	#32:#33;//  out:Ljava/io/PrintStream;
+const #23 = class	#34;	//  java/io/PrintStream
+const #24 = NameAndType	#35:#36;//  println:(I)V
+const #25 = Asciz	Running;
+const #26 = NameAndType	#35:#37;//  println:(Ljava/lang/String;)V
+const #27 = Asciz	MainX;
+const #28 = NameAndType	#15:#12;//  execute:()V
+const #29 = Asciz	Done;
+const #30 = Asciz	java/lang/Object;
+const #31 = Asciz	java/lang/System;
+const #32 = Asciz	out;
+const #33 = Asciz	Ljava/io/PrintStream;;
+const #34 = Asciz	java/io/PrintStream;
+const #35 = Asciz	println;
+const #36 = Asciz	(I)V;
+const #37 = Asciz	(Ljava/lang/String;)V;
+
+{
+public MainX();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#1; //Method java/lang/Object."<init>":()V
+   4:	return
+  LineNumberTable: 
+   line 1: 0
+
+
+public void execute();
+  Code:
+   Stack=2, Locals=2, Args_size=1
+   0:	getstatic	#2; //Field java/lang/System.out:Ljava/io/PrintStream;
+   3:	iconst_3
+   4:	invokevirtual	#3; //Method java/io/PrintStream.println:(I)V
+   7:	return
+  LineNumberTable: 
+   line 5: 0
+   line 6: 7
+
+
+public static void main(java.lang.String[]);
+  Code:
+   Stack=2, Locals=2, Args_size=1
+   0:	getstatic	#2; //Field java/lang/System.out:Ljava/io/PrintStream;
+   3:	ldc	#4; //String Running
+   5:	invokevirtual	#5; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   8:	new	#6; //class MainX
+   11:	dup
+   12:	invokespecial	#7; //Method "<init>":()V
+   15:	astore_1
+   16:	aload_1
+   17:	invokevirtual	#8; //Method execute:()V
+   20:	getstatic	#2; //Field java/lang/System.out:Ljava/io/PrintStream;
+   23:	ldc	#9; //String Done
+   25:	invokevirtual	#5; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   28:	return
+  LineNumberTable: 
+   line 9: 0
+   line 10: 8
+   line 11: 16
+   line 12: 20
+   line 13: 28
+
+
+}
+
