@@ -1,0 +1,8 @@
+ * What is this application used for? : It is a simple proof of concept
+ * programming language
+ * 
+ * OctaneMini, simple programming language in Java with one source file. The
+ * entire implementation is contained in this file. 
+ * 
+ * Compiles to JVM bytecode.
+ *
